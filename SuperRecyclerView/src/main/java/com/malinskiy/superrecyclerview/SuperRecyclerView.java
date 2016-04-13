@@ -548,4 +548,10 @@ public class SuperRecyclerView extends FrameLayout {
         GRID,
         STAGGERED_GRID
     }
+    /**
+	*  Add Item into the animation
+	*/
+	public void setItemAnimator(ItemAnimator animator){
+		mRecycler.setItemAnimator(new DefaultItemAnimator());
+	}
 }
