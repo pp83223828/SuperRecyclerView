@@ -19,7 +19,7 @@ import com.malinskiy.superrecyclerview.util.FloatUtil;
 
 public class SuperRecyclerView extends FrameLayout {
 
-    protected int ITEM_LEFT_TO_LOAD_MORE = 1;
+    protected int ITEM_LEFT_TO_LOAD_MORE = 10;
 
     protected RecyclerView mRecycler;
     protected ViewStub mProgress;
